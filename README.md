@@ -15,3 +15,15 @@ This project uses Machine Learning to predict machine failures before they happe
 
 ## Status
 Project started and under development.
+## Dataset
+
+AI4I 2020 Predictive Maintenance Dataset
+
+This dataset contains machine sensor data such as:
+- Air temperature
+- Process temperature
+- Rotational speed
+- Torque
+- Tool wear
+
+It is used to predict machine failure before breakdown occurs.
