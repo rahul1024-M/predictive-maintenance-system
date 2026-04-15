@@ -1,3 +1,4 @@
+import joblib
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
@@ -31,3 +32,7 @@ predictions = model.predict(X_test)
 accuracy = accuracy_score(y_test, predictions)
 
 print("Model Accuracy:", accuracy)
+# Save trained model
+joblib.dump(model, "../models/failure_model.pkl")
+
+print("Model saved successfully")
